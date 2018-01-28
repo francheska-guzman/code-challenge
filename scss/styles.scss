@@ -1,4 +1,16 @@
+// Removing the default style.
 @import "reset";
+
+@import "variables";
+
 @import "mobile";
-@import "tablet";
-@import "desktop";
+
+// Media query to implement a responsive design for Tablet.
+@media only screen and (min-width: 560px) {
+    @import "tablet";
+}
+
+// Media query to implement a responsive design for Desktop.
+@media only screen and (min-width: 1140px) {
+    @import "desktop";   
+}
