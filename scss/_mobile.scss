@@ -15,6 +15,7 @@ body {
     background-color: $septenaryColor;
     font-family: $primaryFont;
     font-weight: $regularWeight;
+    color: $primaryColor;
 }
 
 header {
@@ -22,18 +23,19 @@ header {
     opacity: .2;
     text-align: center;
 
-    h1 {
-        color: $primaryColor;
-    }
-
     a {
         color: $primaryColor;
         text-decoration: none;
         font-family: $secondaryFont;
+        text-transform: uppercase;
     }
     
     a:hover {
         color: $tertiaryColor;
+    }
+
+    h1 {
+        text-transform: uppercase;
     }
 
     #social {
@@ -42,15 +44,38 @@ header {
 }
 
 #slideshow {
-    position: relative;
-
-    h2 {
-        position: absolute;
-        color: $primaryColor;
+    .slideshow-image {
+        width: 100%;
     }
 
-    .main-image {
-        position: absolute;
-        width: 100%;
+    .listen-now {
+        font-weight: $boldWeight;
+        text-transform: uppercase;
+        color: $primaryColor;
+        background-color: $senaryColor;
+        border: none;
+    }
+}
+
+#new-album {
+    text-align: center;
+
+    h3 {
+        font-family: $tertiaryFont;
+        font-weight: lighter;
+        letter-spacing: .4em;
+        font-size: 18px;
+        margin: 20px 0;
+        color: $octonaryColor;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        font-size: 28px;
+    }
+
+    .new-album-image {
+        width: 250px;
+        margin: 20px 0;
     }
 }

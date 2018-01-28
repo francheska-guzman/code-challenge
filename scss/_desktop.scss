@@ -15,3 +15,17 @@ header {
         float: right;
     }
 }
+
+#new-album {
+    text-align: left;
+
+    h3 {
+        font-size: 14px;
+        color: $octonaryColor;
+        margin: 0 0 10px 0;
+    }
+
+    .new-album-image {
+        width: 300px;
+    }
+}
