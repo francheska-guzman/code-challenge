@@ -13,6 +13,8 @@ html {
 
 body {
     background-color: $septenaryColor;
+    font-family: $primaryFont;
+    font-weight: $regularWeight;
 }
 
 header {
@@ -34,21 +36,20 @@ header {
         color: $tertiaryColor;
     }
 
-    .container-social {
+    #social {
         float: none;
     }
 }
 
-.container-hero {
+#slideshow {
     position: relative;
 
     h2 {
         position: absolute;
         color: $primaryColor;
-        font-family: $primaryFont;
     }
 
-    .hero-image {
+    .main-image {
         position: absolute;
         width: 100%;
     }
