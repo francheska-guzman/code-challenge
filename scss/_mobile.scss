@@ -11,24 +11,43 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    background-color: $septenaryColor;
+}
+
 header {
     background-color: $quaternaryColor;
     opacity: .2;
+    text-align: center;
+
+    h1 {
+        color: $primaryColor;
+    }
+
+    a {
+        color: $primaryColor;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: $tertiaryColor;
+    }
+
+    .container-social {
+        float: none;
+    }
 }
 
-nav, h1, #social-media {
-    display: inline;
-}
+.container-hero {
+    position: relative;
 
-.nav-link {
-    color: $primaryColor;
-    text-decoration: none;
-}
+    h2 {
+        position: absolute;
+        color: $primaryColor;
+    }
 
-.nav-link:hover {
-    color: $tertiaryColor;
-}
-
-h1 {
-    color: $primaryColor;
+    .hero-image {
+        position: absolute;
+        width: 100%;
+    }
 }

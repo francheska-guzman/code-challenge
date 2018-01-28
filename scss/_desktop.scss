@@ -1,0 +1,17 @@
+nav, h1, #social-media {
+    display: inline;
+}
+
+header {
+    nav {
+        float: left;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    
+    .container-social {
+        float: right;
+    }
+}
