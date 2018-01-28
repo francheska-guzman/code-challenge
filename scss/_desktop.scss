@@ -1,20 +1,23 @@
-nav, h1, #social-media {
-    display: inline;
-}
+/* ------------------ Header ------------------ */
 
 header {
     nav {
         float: left;
+        display: inline;
     }
 
     h1 {
         text-align: center;
+        display: inline;
     }
 
     #social {
         float: right;
+        display: inline;
     }
 }
+
+/* ------------------ New Album ------------------ */
 
 #new-album {
     text-align: left;
@@ -27,5 +30,13 @@ header {
 
     .new-album-image {
         width: 300px;
+    }
+
+    .move-buttons {
+        width: auto;
+    }
+
+    .media-buttons {
+        margin: 0;
     }
 }
