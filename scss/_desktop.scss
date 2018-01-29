@@ -6,15 +6,26 @@ header {
         display: inline;
     }
 
+    a {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+
     h1 {
         text-align: center;
         display: inline;
+        font-size: 30px;
     }
 
     #social {
         float: right;
         display: inline;
+        margin: 0 5px;
     }
+}
+
+#menu {
+    padding: 15px;
 }
 
 /* ------------------ New Album ------------------ */
@@ -37,7 +48,7 @@ header {
         width: auto;
     }
 
-    .media-buttons {
+    .button {
         margin: 0;
     }
 

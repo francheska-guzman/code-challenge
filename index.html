@@ -18,46 +18,50 @@ Pre-work for a Front End Developer position at Halo Media LLC.
 </head>
 <body>
 
-<header>
-	<!-- Navigation -->
-	<nav class="clearfix">
-	  <a href="#">News</a>
-	  <a href="#">Music</a>
-	  <a href="#">Video</a>
-	  <a href="#">Photos</a>
-	  <a href="#">Store</a>
-	</nav>
-	<!-- Artist name -->
-	<h1>2 Chainz</h1>
-	<div id="social">
-	  <!-- Social media -->
-	  <a href="#"><img class="social-media" alt="Instagram" src="./assets/image-1.png"></a>
-	  <a href="#"><img class="social-media" alt="Spotify" src="./assets/image-2.png"></a>
-	  <a href="#"><img class="social-media" alt="Twitter" src="./assets/image-3.png"></a>
-	  <a href="#"><img class="social-media" alt="YouTube" src="./assets/image-4.png"></a>
-	  <a href="#"><img class="social-media" alt="Soundcloud" src="./assets/image-5.png"></a>
-	  <a href="#"><img class="social-media" alt="E-mail" src="./assets/image-6.png"></a>
-	  <!-- Login -->
-	  <a href="#">
-		  <img alt="Login" src="./assets/image-7.png"><span>Login</span>
-	  </a>
-	</div>
-</header>
+  <header>
+	<section id="menu">
+		<!-- Navigation -->
+		<nav class="clearfix">
+		<a class="active" href="#">News</a>
+		<a href="#">Music</a>
+		<a href="#">Video</a>
+		<a href="#">Photos</a>
+		<a href="#">Store</a>
+		</nav>
+		<!-- Artist name -->
+		<h1>2 Chainz</h1>
+		<div id="social">
+		<!-- Social media -->
+		<a href="#"><img class="social-media" alt="Instagram" src="./assets/image-1.png"></a>
+		<a href="#"><img class="social-media" alt="Spotify" src="./assets/image-2.png"></a>
+		<a href="#"><img class="social-media" alt="Twitter" src="./assets/image-3.png"></a>
+		<a href="#"><img class="social-media" alt="YouTube" src="./assets/image-4.png"></a>
+		<a href="#"><img class="social-media" alt="Soundcloud" src="./assets/image-5.png"></a>
+		<a href="#"><img class="social-media" alt="E-mail" src="./assets/image-6.png"></a>
+		<!-- Login -->
+		<a href="#">
+			<img alt="Login" src="./assets/image-7.png"><span>Login</span>
+		</a>
+		</div>
+	</section>
 
-<section id="slideshow">
-	<!-- Slideshow -->
-	<img class="slideshow-image" alt="2 Chainz" src="./assets/image-8.jpg">
-	<!-- Title -->
-	<h2>Pretty Girls Like Trap Music</h2>
-	<!-- 
+	<section id="slideshow">
+	  <div class="slideshow-container">
+		<!-- Slideshow -->
+		<img class="slideshow-image" alt="2 Chainz" src="./assets/image-8.jpg">
+		<!-- Title -->
+		<h2>Pretty Girls Like Trap Music</h2>
+		<!-- 
 		TO DO: 
 		On click, add a smooth scroll animation 
 		that scrolls the user to New Album section. 
-	-->
-	<input class="listen-now" type="button" value="Listen Now">
-</section>
+		-->
+		<input type="button" value="Listen Now">
+	  </div>
+	</section>
+  </header>
 
-<section id="new-album">
+  <section id="new-album">
 	<!-- Title -->
 	<h3>New Album</h3>
 	<h4>Pretty Girls Like Trap Music</h4>
@@ -65,10 +69,10 @@ Pre-work for a Front End Developer position at Halo Media LLC.
 	<img class="new-album-image" alt="2 Chainz" src="./assets/image-9.jpg">
 	<!-- Buttons -->
 	<div class="move-buttons">
-		<input class="media-buttons" type="button" value="Spotify">
-		<input class="media-buttons" type="button" value="iTunes">
-		<input class="media-buttons" type="button" value="Google Play">
-		<input class="media-buttons" type="button" value="Amazon Music">
+		<input class="button" type="button" value="Spotify">
+		<input class="button" type="button" value="iTunes">
+		<input class="button" type="button" value="Google Play">
+		<input class="button" type="button" value="Amazon Music">
 	</div>
 		<!-- Tracks -->
 		<ol class="number flex">
@@ -87,7 +91,7 @@ Pre-work for a Front End Developer position at Halo Media LLC.
 				<li>I'm Diferent - 2 Chainz</li>
 			</span>
 		</ol>
-</section>
+  </section>
 
 </body>
 </html>
