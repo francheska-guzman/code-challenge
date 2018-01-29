@@ -46,8 +46,6 @@
 <a id="sources"></a>
 ## Sources
 
-[HTML5 Reset Stylesheet](http://html5doctor.com/html-5-reset-stylesheet/) by Richard Clark
-
 [Hands-on Responsive Web Design 1: Media Queries & CSS Preprocessing](https://app.pluralsight.com/library/courses/responsive-web-design-media-queries-css-preprocessing/table-of-contents) by Paul Cheney (Released: June 6, 2017)
 
 [Foundation 6](https://foundation.zurb.com)
