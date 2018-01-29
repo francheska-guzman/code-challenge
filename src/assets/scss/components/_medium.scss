@@ -9,7 +9,13 @@
 /* ------------------ New Album ------------------ */
 
 #new-album {
-    .move-buttons {
-        width: 500px;
+    .button {
+        margin: 0;
+        width: 180px;
+        height: 50px;
+    }
+
+    li {
+        font-size: 16px;
     }
 }

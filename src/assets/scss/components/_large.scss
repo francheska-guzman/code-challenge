@@ -31,7 +31,6 @@ header {
     }
 }
 
-
 /* ------------------ New Album ------------------ */
 
 #new-album {
@@ -41,6 +40,10 @@ header {
     h3 {
         font-size: 14px;
         color: $octonaryColor;
+        margin: 0;
+    }
+
+    h4 {
         margin: 0 0 10px 0;
     }
 
@@ -48,17 +51,19 @@ header {
         width: 300px;
     }
 
-    .move-buttons {
-        width: auto;
-    }
-
-    .button {
-        margin: 0;
-    }
-
     ol {
         text-align: left;
         width: 100%;
         margin: auto;
+    }
+
+    li {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .button {
+        width: 150px;
+        height: 40px;
     }
 }
