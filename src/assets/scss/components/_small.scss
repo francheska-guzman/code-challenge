@@ -19,7 +19,7 @@ body {
     color: $primaryColor;
     background-color: $quinaryColor;
     border: none;
-    width: 250px;
+    width: 190px;
     height: 50px;
     margin: 2px 0;
 }
@@ -110,11 +110,11 @@ header {
 
 #new-album {
     text-align: center;
-    margin: auto;
+    margin: 10px auto;
 
     h3 {
         font-family: $tertiaryFont;
-        font-weight: lighter;
+        font-weight: $boldWeight;
         letter-spacing: .4em;
         font-size: 18px;
         margin: 20px 0 0 0;
@@ -126,10 +126,6 @@ header {
         font-family: $primaryFont;
         font-size: 28px;
         margin: 10px 0 20px 0;
-    }
-
-    .new-album-image {
-        width: 250px;
     }
 
     ol {
@@ -145,5 +141,48 @@ header {
 
     .number li::before {
         color: $octonaryColor;
+    }
+}
+
+/* ------------------ News ------------------ */
+
+#news {
+    margin: 10px 0;
+
+    h3 {
+        font-family: $secondaryFont;
+        font-weight: ;
+        letter-spacing: .4em;
+        font-size: 30px;
+        color: $octonaryColor;
+        text-transform: uppercase;
+    }
+
+   article {
+        position: relative;
+   }
+
+   p {
+       font-size: 16px;
+       text-transform: uppercase;
+       text-align: center;
+   }
+
+   .smaller-image {
+        width: auto;
+   }
+
+   .bigger-image {
+        width: auto;
+   }
+
+   figcaption {
+        width: auto !important;
+        height: 50px;
+        position: absolute;
+        bottom: 0;
+        background: rgb(12, 25, 58);
+        background: rgba(18, 25, 58, 0.9);
+        overflow: hidden;
     }
 }
