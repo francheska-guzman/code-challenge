@@ -151,7 +151,7 @@ header {
 
     h3 {
         font-family: $secondaryFont;
-        font-weight: ;
+        font-weight: $boldWeight;
         letter-spacing: .4em;
         font-size: 30px;
         color: $octonaryColor;
@@ -160,29 +160,31 @@ header {
 
    article {
         position: relative;
+        text-align: center;
    }
 
    p {
-       font-size: 16px;
+       font-size: 14px;
        text-transform: uppercase;
        text-align: center;
    }
 
    .smaller-image {
-        width: auto;
+        max-width: 250px;
    }
 
    .bigger-image {
-        width: auto;
+        max-width: 500px;
    }
 
    figcaption {
-        width: auto !important;
+        font-size: 14px;
+        width: auto;
         height: 50px;
+        overflow: hidden;
         position: absolute;
         bottom: 0;
         background: rgb(12, 25, 58);
         background: rgba(18, 25, 58, 0.9);
-        overflow: hidden;
     }
 }
