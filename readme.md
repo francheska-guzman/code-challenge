@@ -15,12 +15,12 @@
 ## Steps performed
 
 1. Carefully read the instructions and download the mockup.
-2. I installed the Adobe PhotoShop CC 2018 Free Trial, and opened the PSD file.
-3. I learned how to grab images from a PSD file, and successfully implemented it.
-4. I evaluated the mockup to understand the site (i.e. identify patterns to decide when I have to create classes and ids).
-5. I used Pluralsight to learn SCSS and Foundation 6.
-6. I started with HTML and styled it from top to bottom, using a mobile first perspective.
-7. I continuesly tested the site in modern web browsers.
+2. Installed the Adobe PhotoShop CC 2018 Free Trial, and opened the PSD file.
+3. Learned how to grab the images from a PSD file, and successfully implemented it.
+4. Evaluated the mockup to understand the site (i.e. identify patterns to decide when I have to create classes and ids).
+5. Learned SCSS and Foundation 6 through Pluralsight.
+6. Started with HTML and styled it from top to bottom, using a mobile first perspective.
+7. Continuesly tested the site in modern web browsers.
 
 <a id="tech-used"></a>
 ## Techniques and technologies used
@@ -31,7 +31,7 @@
 
 [✓] SCSS
 
-[ ] JavaScript (I will be working on it after finish the style of the page.)
+[  ] JavaScript - I will be working on it after finish the style of the page.
 
 [✓] Foundation 6 (Flex Grid) - I will be moving files to the Foundation project soon.
 
