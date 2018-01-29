@@ -1,35 +1,23 @@
 /* ------------------ Header ------------------ */
 
 header {
-    #menu {
-        padding: 15.5px;
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        margin: 10px 0 0 0;
     }
 
-    nav {
-        float: left;
+    nav, #social {
         display: inline;
-        margin: 4px 0 0 0;
+        margin: 20px 0;
     }
 
     a {
         font-size: 14px;
-        margin: 0 10px;
     }
 
     .hamburger-menu {
         display: none;
-    }
-
-    h1 {
-        text-align: center;
-        display: inline;
-        font-size: 30px;
-    }
-
-    #social {
-        float: right;
-        display: inline;
-        margin: 4px 5px 0 5px;
     }
 }
 
@@ -72,17 +60,5 @@ header {
         text-align: left;
         width: 100%;
         margin: auto;
-    }
-
-    .flex {
-        display: flex
-    }
-
-    .column {
-        flex-direction: column;
-    }
-
-    .flex-1 {
-        flex: 1;
     }
 }

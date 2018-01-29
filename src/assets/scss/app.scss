@@ -58,16 +58,17 @@
 
 @import './components/variables';
 
-@import './components/mobile';
+// Mobile design and the default styles.
+@import './components/small';
 
 // Media query to implement a responsive design for Tablet.
-@media only screen and (min-width: 560px) {
-    @import './components/tablet';
+@media only screen and (min-width: 640px) {
+    @import './components/medium';
 }
 
 // Media query to implement a responsive design for Desktop.
-@media only screen and (min-width: 1140px) {
-    @import './components/desktop';   
+@media only screen and (min-width: 1024px) {
+    @import './components/large';   
 }
 
 /* ---------------------------------------------------------------------------- */

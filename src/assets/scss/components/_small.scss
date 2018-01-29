@@ -1,18 +1,5 @@
 /* ------------------ General ------------------ */
 
-/* Prevent adjustments of font size after orientation changes on Windows Phone and iOS. */
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-}
-
-/* For a natural box layout model to all elements. */
-*, *:before, *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
 body {
     background-color: $septenaryColor;
     font-family: $primaryFont;
@@ -33,11 +20,19 @@ header {
     text-align: center;
 
     #menu {
-        padding: 8px;
         background: rgb(0, 0, 0);
         background: rgba(0, 0, 0, 0.2);
         position: fixed;
-        width: 100%;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 25px;
+        margin: 20px;
+    }
+
+    nav, #social {
+        display: none;
     }
     
     a {
@@ -46,27 +41,17 @@ header {
         font-family: $secondaryFont;
         text-transform: uppercase;
         font-size: 18px;
-        margin: 0 10px;
+        margin: 0 5px;
     }
     
     a:hover, a:active {
         color: $tertiaryColor;
     }
 
-    h1 {
-        text-transform: uppercase;
-        font-size: 25px;
-        margin: 10px;
-    }
-
-    nav, #social {
-        display: none;
-    }
-
     .hamburger-menu {
         display: inline;
         float: left;
-        margin: 12px 0;
+        margin: 25px 0;
     }
 
     .hamburger-menu:hover, .social-media:hover {
