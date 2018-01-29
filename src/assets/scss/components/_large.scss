@@ -1,3 +1,10 @@
+/* ------------------ General ------------------ */
+
+.button {
+    width: 150px;
+    height: 40px;
+}
+
 /* ------------------ Header ------------------ */
 
 header {
@@ -34,17 +41,17 @@ header {
 /* ------------------ New Album ------------------ */
 
 #new-album {
-    margin: 0 20px;
     text-align: left;
 
     h3 {
         font-size: 14px;
         color: $octonaryColor;
-        margin: 0;
+        margin: 0 0 0 16px;
     }
 
     h4 {
-        margin: 0 0 10px 0;
+        font-size: 40px;
+        margin: 0 0 10px 16px;
     }
 
     .new-album-image {
@@ -60,10 +67,5 @@ header {
     li {
         font-size: 14px;
         padding: 5px;
-    }
-
-    .button {
-        width: 150px;
-        height: 40px;
     }
 }
