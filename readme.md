@@ -11,9 +11,8 @@
 3. [Sources](#sources)
 4. [Live](#live)
 
-<a id="steps">
+<a id="steps"></a>
 ## Steps performed
-</a>
 
 1. Carefully read the instructions and download the mockup.
 2. I installed the Adobe PhotoShop CC 2018 Free Trial, and opened the PSD file.
@@ -23,9 +22,8 @@
 6. I started with HTML and styled it from top to bottom, using a mobile first perspective.
 7. I continuesly tested the site in modern web browsers.
 
-<a id="tech-used">
+<a id="tech-used"></a>
 ## Techniques and technologies used
-</a>
 
 [✓] HTML
 
@@ -45,9 +43,8 @@
 
 [✓] Koala App
 
-<a id="sources">
+<a id="sources"></a>
 ## Sources
-</a>
 
 [HTML5 Reset Stylesheet](http://html5doctor.com/html-5-reset-stylesheet/) by Richard Clark
 
@@ -57,8 +54,7 @@
 
 [Building Websites with Foundation 6](https://app.pluralsight.com/library/courses/building-websites-foundation-6/table-of-contents) by Gary Simon (Released: May 23, 2017)
 
-<a id="live">
+<a id="live"></a>
 ## Live
-</a>
 
 Site URL soon.
