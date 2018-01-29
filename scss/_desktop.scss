@@ -1,6 +1,10 @@
 /* ------------------ Header ------------------ */
 
 header {
+    #menu {
+        padding: 15px;
+    }
+
     nav {
         float: left;
         display: inline;
@@ -9,6 +13,10 @@ header {
     a {
         font-size: 14px;
         margin: 0 10px;
+    }
+
+    .hamburger-menu {
+        display: none;
     }
 
     h1 {
@@ -22,10 +30,6 @@ header {
         display: inline;
         margin: 0 5px;
     }
-}
-
-#menu {
-    padding: 15px;
 }
 
 /* ------------------ New Album ------------------ */
