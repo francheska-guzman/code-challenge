@@ -10,24 +10,12 @@
 
 header {
     h1 {
-        display: inline;
-        text-align: center;
-        margin: 10px 0 0 0;
-    }
-    
-    nav {
-        display: inline;
-        margin: 20px 0;
-    }
-
-    #social {
-        display: inline;
-        margin: 20px 0;
+        font-size: 30px;
     }
 
     a {
-        font-size: 14px;
-        display: inline;
+        font-size: 15px;
+        margin: 0 3px;
     }
 }
 
@@ -47,6 +35,10 @@ header {
     text-align: left;
     margin: 50px auto;
 
+    h1 {
+        font-size: 35px;
+    }
+
     h3 {
         font-size: 14px;
         color: $octonaryColor;
@@ -61,15 +53,17 @@ header {
     #new-album-buttons {
         margin: 10px 0;
     }
-
-    li {
-        font-size: 12px;
-        padding: 7px 0;
+    
+    figcaption {
+        display: none;
     }
 
-    .number {
-        font-size: 14px;
-        width: auto;
+    .new-album-titles {
+        display: block;
+    }
+
+    li {
+        padding: 7px 0;
     }
 }
 
@@ -87,5 +81,24 @@ header {
     .bg-image {
         width: 50%;
         height: 50%;
+    }
+
+    .yellow-date {
+        font-size: 17px;
+    }
+
+    .location {
+        font-size: 17px;
+        width: 250px;
+    }
+
+    .state {
+        font-size: 17px;
+        width: 250px;
+    }
+
+    .button {
+        width: 110px;
+        font-size: 14px;
     }
 }
