@@ -7,7 +7,7 @@
 ### Table of Contents
 
 1. [Techniques and technologies used](#tech-used)
-2. [Live](#live)
+2. [How to see the project](#how-to-see)
 
 <a id="tech-used"></a>
 ## Techniques and technologies used
@@ -31,6 +31,19 @@
 [✓] Koala App
 
 <a id="live"></a>
-## Live
+## How to see the project
 
-Site URL soon.
+### Live deployment:
+
+URL soon.
+
+### To run in your local machine:
+
+1. Open the terminal.
+2. Move to Documents, Desktop or your preferred area.
+3. Run "git clone https://github.com/francheska-guzman/pre-work.git"
+4. Run "cd pre-work" to move to the project's directory.
+5. Run "npm install" to install all dependencies.
+6. Run "foundation watch". Your browser will open in http://localhost:8000.
+
+
