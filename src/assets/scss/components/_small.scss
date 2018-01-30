@@ -284,3 +284,47 @@ header {
         font-size: 10px;
     }
 }
+
+/* ------------------ Newsletter ------------------ */
+
+#newsletter {
+    h3 {
+        font-family: $secondaryFont;
+        font-weight: $boldWeight;
+        letter-spacing: .4em;
+        font-size: 30px;
+        background: -webkit-linear-gradient(#c49640 50%, #816228 50%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: uppercase;
+    }
+}
+
+/* ------------------ Footer ------------------ */
+
+footer {
+    background: $quaternaryColor;
+    text-align: center;
+    margin: 10px 0;
+
+    p, a {
+        color: $primaryColor;
+        font-family: $secondaryFont;
+        font-weight: $boldWeight;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    a:hover {
+        opacity: .5;
+        color: $primaryColor;
+    }
+
+    .social-media {
+        padding: 0 1px;
+    }
+
+    .social-media:hover {
+        opacity: .5;
+    }
+}
