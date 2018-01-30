@@ -39,6 +39,10 @@ header {
         color: $tertiaryColor;
     }
 
+    .social-media {
+        padding: 0px;
+    }
+
     .social-media:hover {
         opacity: .5;
     }
@@ -67,9 +71,10 @@ header {
     }
 
     #main-title {
-        width: 100%;
+        width: auto;
         position: absolute;
-        top: 7vh;
+        top: 10vh;
+        right: 23%;
         margin: auto;
     }
 
@@ -108,7 +113,7 @@ header {
         font-weight: $boldWeight;
         letter-spacing: .4em;
         font-size: 18px;
-        margin: 30px 0 0 0;
+        margin-top: 30px;
         color: $octonaryColor;
         text-transform: uppercase;
     }
@@ -116,11 +121,11 @@ header {
     h4 {
         font-family: $primaryFont;
         font-size: 28px;
-        margin: 10px 0 0 0;
+        margin-top: 10px;
     }
 
     #new-album-buttons {
-        margin: 30px 0;
+        padding: 30px 0;
     }
 
     li {
@@ -344,7 +349,7 @@ footer {
     }
 
     .social-media {
-        padding: 0 1px;
+        padding: 0 10px;
     }
 
     .social-media:hover {
