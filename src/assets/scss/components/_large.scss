@@ -10,22 +10,24 @@
 
 header {
     h1 {
+        display: inline;
         text-align: center;
-        font-size: 30px;
         margin: 10px 0 0 0;
     }
+    
+    nav {
+        display: inline;
+        margin: 20px 0;
+    }
 
-    nav, #social {
+    #social {
         display: inline;
         margin: 20px 0;
     }
 
     a {
         font-size: 14px;
-    }
-
-    .hamburger-menu {
-        display: none;
+        display: inline;
     }
 }
 
@@ -48,12 +50,16 @@ header {
     h3 {
         font-size: 14px;
         color: $octonaryColor;
-        margin: 0 0 0 16px;
+        margin: 0 0 10px 16px;
     }
 
     h4 {
         font-size: 40px;
-        margin: 0 0 10px 16px;
+        margin: 0 0 0 16px;
+    }
+
+    #new-album-buttons {
+        margin: 10px 0;
     }
 
     li {

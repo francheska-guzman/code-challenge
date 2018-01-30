@@ -1,36 +1,39 @@
 <header>
-  <section id="menu" class="large-12 columns">
-	<div class="row">
-	  <!-- Navigation -->
-	  <nav class="clearfix large-4">
-		<a class="active" href="#">News</a>
-		<a href="#">Music</a>
-		<a href="#">Video</a>
-		<a href="#">Photos</a>
-		<a href="#">Store</a>
-	  </nav>
-
-	  <div class="small-12 large-4">
-		<!-- 
-		TO DO: 
-		If I have time, add functionality to the hamburger button.
-		-->
-		<i class="fa fa-bars hamburger-menu"></i>
-		<!-- Artist name -->
-		<h1>2 Chainz</h1>
-	  </div>
-	  <div id="social" class="large-4">
-		<!-- Social media -->
-	  <a href="#"><img class="social-media" alt="Instagram" src="../assets/img/image-1.png"></a>
-		<a href="#"><img class="social-media" alt="Spotify" src="../assets/img/image-2.png"></a>
-		<a href="#"><img class="social-media" alt="Twitter" src="../assets/img/image-3.png"></a>
-		<a href="#"><img class="social-media" alt="YouTube" src="../assets/img/image-4.png"></a>
-		<a href="#"><img class="social-media" alt="SoundCloud" src="../assets/img/image-5.png"></a>
-		<a href="#"><img class="social-media" alt="E-mail" src="../assets/img/image-6.png"></a>
-	    <!-- Login -->
-		<a href="#"><img alt="Login" src="../assets/img/image-7.png"> Login</a>
-	  </div>
-	</div>
+  <section id="menu" class="small-12 columns">
+		<div class="expanded small-collapse large-uncollapse">
+			<!-- Hamburger button -->
+			<div class="title-bar" data-responsive-toggle="2chainz-menu" data-hide-for="large">
+				<button class="menu-icon" type="button" data-toggle="2chainz-menu"></button>
+				<div class="title-bar-title">2 CHAINZ</div> <!-- Name aside hamburger button -->
+			</div>
+			<div class="row">
+				<div id="2chainz-menu" class="menu float-left vertical large-horizontal small-12 columns">
+					<!-- Navigation -->
+					<nav class="small-12 large-4 columns">
+						<a class="active" href="#">News</a>
+						<a href="#">Music</a>
+						<a href="#">Video</a>
+						<a href="#">Photos</a>
+						<a href="#">Store</a>
+					</nav>
+					<!-- Artist name -->
+				  <div class="small-12 large-4 columns">
+						<h1>2 Chainz</h1>
+					</div>
+					<!-- Social media -->
+					<div id="social" class="small-12 large-4 columns">
+						<a href="#"><img class="social-media" alt="Instagram" src="../assets/img/image-1.png"></a>
+						<a href="#"><img class="social-media" alt="Spotify" src="../assets/img/image-2.png"></a>
+						<a href="#"><img class="social-media" alt="Twitter" src="../assets/img/image-3.png"></a>
+						<a href="#"><img class="social-media" alt="YouTube" src="../assets/img/image-4.png"></a>
+						<a href="#"><img class="social-media" alt="SoundCloud" src="../assets/img/image-5.png"></a>
+						<a href="#"><img class="social-media" alt="E-mail" src="../assets/img/image-6.png"></a>
+						<!-- Login -->
+						<a href="#"><img alt="Login" src="../assets/img/image-7.png"> Login</a>
+					</div>
+				</div>
+		  </div>
+		</div>
   </section><!-- End of menu section -->
 
   <section id="slideshow">
@@ -45,19 +48,19 @@
 	-->
 	<input type="button" value="Listen Now">
   </section><!-- End of slideshow section -->
-</header>
+</header><!-- End of header -->
 
 <section id="new-album" class="row">
   <figure class="small-12 large-4 columns">
-	<!-- Image -->
-	<img class="new-album-image" alt="2 Chainz" src="../assets/img/image-9.jpg">
+		<!-- Image -->
+		<img class="new-album-image" alt="2 Chainz" src="../assets/img/image-9.jpg">
   </figure>
   <div class="small-12 large-8 columns">
-	<!-- Title -->
-	<h3>New Album</h3>
-	<h4>Pretty Girls Like Trap Music</h4>
+		<!-- Title -->
+		<h3>New Album</h3>
+		<h4>Pretty Girls Like Trap Music</h4>
 	<!-- Buttons -->
-	<div class="small-12 columns">
+	<div id="new-album-buttons" class="small-12 columns">
 		<input class="button" type="button" value="Spotify">
 		<input class="button" type="button" value="iTunes">
 		<input class="button" type="button" value="Google Play">
@@ -84,6 +87,7 @@
 <section id="news" class="row">
 	<h3 class="small-12 columns">News</h3>
 	<div class="small-12 columns row">
+		<!-- News #1 (Bigger) -->
 		<article class="small-12 large-6 columns">
 			<figure>
 				<img class="bigger-image" alt="News 1" src="../assets/img/image-10.jpg">
@@ -94,6 +98,7 @@
 				</p>
 			</figcaption>
 		</article>
+		<!-- News #2 -->
 		<article class="small-6 large-3 columns">
 			<figure>
 				<img class="smaller-image" alt="News 2" src="../assets/img/image-11.jpg">
@@ -102,6 +107,7 @@
 				<p>Get the dabbin this holiday season & purchase the...</p>
 			</figcaption>
 		</article>
+		<!-- News #3 -->
 		<article class="small-6 large-3 columns">
 			<figure>
 				<img class="smaller-image" alt="News 3" src="../assets/img/image-12.jpg">
@@ -110,6 +116,7 @@
 				<p>2 Chainz performing live at hempcon Nov. 7th</p>
 			</figcaption>
 		</article>
+		<!-- News #4 -->
 		<article class="small-6 large-3 columns">
 			<figure>
 				<img class="smaller-image" alt="News 4" src="../assets/img/image-13.jpg">
@@ -118,6 +125,7 @@
 				<p>Watch out! 2 Chainz premieres new music on 1st annual bet...</p>
 			</figcaption>
 		</article>
+		<!-- News #5 -->
 		<article class="small-6 large-3 columns">
 			<figure>
 				<img class="smaller-image" alt="News 5" src="../assets/img/image-14.jpg">
@@ -127,9 +135,9 @@
 			</figcaption>
 		</article>
 	</div>
+	<!-- View More button -->
 	<div class="view-more small-12 columns">
 		<input class="button" type="button" value="View More">
-	</div>
 	</div>
 </section><!-- End of news section -->
 
@@ -137,7 +145,8 @@
 	<img class="bg-image" alt="Background" src="../assets/img/image-15.jpg">
 	<div class="tour-box">
 		<div class="small-12 columns">
-	 	<h3 class="small-12 columns">Tour Dates</h3>
+			<h3 class="small-12 columns">Tour Dates</h3>
+		  <!-- Tour details #1 -->
 			<li>
 				<span class="date">
 					<span class="yellow-date">Apr</span><br>14
@@ -148,6 +157,7 @@
 					<input class="button" type="button" value="Tickets">
 				</span>
 			</li>
+			<!-- Tour details #2 -->
 			<li>
 				<span class="date">
 					<span class="yellow-date">Apr</span><br>19
@@ -158,6 +168,7 @@
 					<input class="button" type="button" value="Tickets">
 				</span>
 			</li>
+			<!-- Tour details #3 -->
 			<li>
 				<span class="date">
 					<span class="yellow-date">Apr</span><br>22
@@ -168,6 +179,7 @@
 					<input class="button" type="button" value="Tickets">
 				</span>
 			</li>
+			<!-- Tour details #4 -->
 			<li>
 				<span class="date">
 					<span class="yellow-date">Apr</span><br>23
@@ -178,6 +190,7 @@
 					<input class="button" type="button" value="Tickets">
 				</span>
 			</li>
+			<!-- Tour details #5 -->
 			<li>
 				<span class="date">
 					<span class="yellow-date">Apr</span><br>28
