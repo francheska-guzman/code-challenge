@@ -208,32 +208,46 @@
 </section><!-- End of tour dates section -->
 
 <section id="newsletter" class="row">
-	<h3 class="small-12 columns">Newsletter</h3>
-	<form>
-	  <input class="newsletter-field" type="text" name="E-mail" placeholder="Email Address *" required>
-	  <input class="newsletter-field" type="text" name="E-mail" placeholder="Zip Code *" required>
-	  	<h5>Subscribe to email updates from:</h5>
-		  <input id="checkbox-2chainz" type="checkbox" name="2Chainz">
-		  	<label>2 Chainz</label>
-		  <input id="checkbox-defjam" type="checkbox" name="DefJamRecords">
-		  	<label>Def Jam Records</label>
-		  <input id="checkbox-universal" type="checkbox" name="UniversalMusicGroup">
-			<label>Universal Music Group</label>
-		<p>My selecting submit you agree to the Universal Music Group privacy policy.</p>  
+  <div class="small-12 columns">
+	<h3>Newsletter</h3>
+	<form class="row">
+	  <!-- Input text fiels for E-mail and Zip Code -->
+	  <input class="newsletter-field small-12 medium-6 columns" 
+	  	type="text" name="E-mail" placeholder="Email Address *" required>
+	  <input class="newsletter-field small-12 medium-6 columns" 
+	  	type="text" name="E-mail" placeholder="Zip Code *" required>
+	  <h5 class="small-12 columns">Subscribe to email updates from:</h5>
+	    <!-- Checkboxes -->
+		<div class="small-12 columns">
+		  <input id="checkbox-1" type="checkbox" name="2Chainz">
+		  	<label class="checkbox-label">2 Chainz</label>
+		  <input id="checkbox-2" type="checkbox" name="DefJamRecords">
+		  	<label class="checkbox-label">Def Jam Records</label>
+		  <input id="checkbox-3" type="checkbox" name="UniversalMusicGroup">
+			<label class="checkbox-label">Universal Music Group</label>
+		</div>
+		<!-- Form submission -->
+		<div class="small-12 columns">
+		  <p>My selecting submit you agree to the Universal Music Group privacy policy.</p>  
+		  <input id="submit-form" type="submit" value="Submit">
+		</div>
 	</form>
-
+  </div>
 </section><!-- End of newsletter section -->
 
 <footer class="row">
+	<!-- Copywrite -->
 	<div class="small-12 medium-12 large-3 columns">
 		<p>&copy; Def Jam Records</p>
 	</div>
+	<!-- Footer links -->
 	<div class="small-12 medium-6 large-3 columns">
 		<a href="#">Terms & Conditions</a>
 	</div>
 	<div class="small-12 medium-6 large-3 columns">
 		<a href="#">Privacy Policy</a>
 	</div>
+	<!-- Social media -->
 	<div class="small-12 medium-12 large-3 columns">
 		<a href="#"><img class="social-media" alt="Facebook" src="../assets/img/image-0.png"></a>
 		<a href="#"><img class="social-media" alt="Instagram" src="../assets/img/image-1.png"></a>

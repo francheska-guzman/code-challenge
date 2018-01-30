@@ -326,6 +326,48 @@ header {
         -webkit-text-fill-color: transparent;
         text-transform: uppercase;
     }
+
+    h5 {
+        color: $octonaryColor;
+        font-family: $secondaryColor;
+    }
+
+    .newsletter-field {
+        border: none;
+        border-bottom: 2px solid $primaryColor;
+        color: $primaryColor;
+        background: $septenaryColor;
+        text-transform: uppercase;
+    }
+
+    .checkbox-label {
+        text-transform: uppercase;
+        font-family: $secondaryFont;
+        color: $primaryColor;
+    }
+
+    p {
+        color: $secondaryColor;
+        font-family: $secondaryFont;
+        text-transform: uppercase;
+    }
+
+    #submit-form {
+        text-transform: uppercase;
+        color: $primaryColor;
+        background-color: $quinaryColor;
+        width: 120px;
+        height: 40px;
+        margin: 0;
+        font-size: 15px;
+        border-top: none;
+        border-left: none;
+        cursor: pointer;
+    }
+
+    #submit-form:hover {
+        background-color: darken($quinaryColor, 1%);
+    }
 }
 
 /* ------------------ Footer ------------------ */
