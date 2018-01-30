@@ -30,7 +30,7 @@
 
 [✓] Koala App
 
-<a id="live"></a>
+<a id="how-to-see"></a>
 ## How to see the project
 
 ### Live deployment:
