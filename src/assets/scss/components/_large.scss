@@ -1,8 +1,9 @@
 /* ------------------ General ------------------ */
 
 .button {
-    width: 90px;
-    height: 20px;
+    width: 130px;
+    height: 40px;
+    margin: 10px 0 10px 0;
 }
 
 /* ------------------ Header ------------------ */
@@ -55,20 +56,25 @@ header {
         margin: 0 0 10px 16px;
     }
 
-    ol {
-        text-align: left;
-        width: 100%;
-        margin: auto;
+    li {
+        font-size: 12px;
+        padding: 7px 0;
     }
 
-    li {
+    .number {
         font-size: 14px;
-        padding: 5px;
+        width: auto;
     }
 }
 
 /* ------------------ News ------------------ */
 
 #news {
+    margin: 50px auto;
+}
+
+/* ------------------ Tour Dates ------------------ */
+
+#tour-dates {
     margin: 50px auto;
 }
