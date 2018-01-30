@@ -57,6 +57,16 @@ header {
         padding: 0 5px 10px 0;
         width: auto;
     }
+
+    figure {
+        padding: 50px;
+    }
+
+    .button {
+        width: 130px;
+        height: 40px;
+        font-size: 13px;
+    }
 }
 
 /* ------------------ News ------------------ */
@@ -99,7 +109,7 @@ header {
 
 #newsletter {
     margin: 30px auto;
-
+    
     .check-list {
         text-align: center;
     }

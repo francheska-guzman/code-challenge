@@ -66,17 +66,16 @@ header {
     li {
         padding: 7px 0;
     }
-
-    .button {
-        width: 140px;
-        height: 40px;
-    }
 }
 
 /* ------------------ News ------------------ */
 
 #news {
     margin: 50px auto;
+
+    h3 {
+        text-align: left;
+    }
 }
 
 /* ------------------ Tour Dates ------------------ */
@@ -84,9 +83,13 @@ header {
 #tour-dates {
     margin: 50px auto;
 
+    .tour-box {
+        text-align: left;
+    }
+
     .bg-image {
-        width: 50%;
-        height: 50%;
+        width: 40%;
+        height: 40%;
     }
 
     .yellow-date {
