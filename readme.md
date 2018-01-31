@@ -12,23 +12,17 @@
 <a id="tech-used"></a>
 ## Techniques and technologies used
 
-[✓] HTML
+HTML
 
-[✓] CSS
+CSS
 
-[✓] SCSS
+SCSS
 
-[✓] JavaScript
+Foundation 6
 
-[✓] Foundation 6
+Responsive Design (Mobile, Tablet and Desktop)
 
-[✓] Responsive Design (Mobile, Tablet and Desktop)
-
-[✓] Tested in modern web browsers (Google Chrome, Safari, Firefox).
-
-[✓] Visual Studio Code
-
-[✓] Koala App
+Tested in modern web browsers (Google Chrome, Safari, Firefox).
 
 <a id="how-to-see"></a>
 ## How to see the project
@@ -40,10 +34,11 @@ URL soon.
 ### To run in your local machine:
 
 1. Open the terminal.
-2. Move to Documents, Desktop or your preferred area.
-3. Run "git clone https://github.com/francheska-guzman/pre-work.git"
-4. Move to the project's directory (in this case, "cd pre-work").
-5. Run "npm install" to install all dependencies.
-6. Run "foundation watch". Your browser will open in http://localhost:8000.
+2. If you don't have Foundation installed globally, run: "npm install foundation-cli --global"
+3. Move to Documents, Desktop or your preferred working area.
+4. Run "git clone https://github.com/francheska-guzman/pre-work.git"
+5. Move to the project's directory (in this case, "cd pre-work").
+6. Run "npm install" to install all dependencies.
+7. Run "foundation watch". Your browser will open in http://localhost:8000.
 
 
