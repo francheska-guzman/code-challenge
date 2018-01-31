@@ -32,8 +32,8 @@ Tested in modern web browsers such as Google Chrome, Safari and Firefox.
 1. Open the terminal.
 2. If you don't have Foundation installed globally, run: "npm install foundation-cli --global"
 3. Move to Documents, Desktop or your preferred working area.
-4. Run "git clone https://github.com/francheska-guzman/pre-work.git"
-5. Move to the project's directory (in this case, "cd pre-work").
+4. Fork the repository and run "https://github.com/{{your-github-username}}/pre-work.git" or run "git clone https://github.com/{your-github-username}/pre-work.git".
+5. Move to the project's directory (for this project "cd pre-work").
 6. Run "npm install" to install all dependencies.
 7. Run "foundation watch". Your browser will open in http://localhost:8000.
 
