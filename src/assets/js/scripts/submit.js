@@ -1,9 +1,13 @@
+// Function to submit the form.
+
 function submit() {
-    // Removing form from the DOM.
     var form = document.getElementById("form");
     form.style.display = "none";
 
-    // Showing a successfull message.
+    console.log("Form removed from DOM.");
+
     var message = document.getElementById("submission-message");
     message.innerHTML = "Thank You for submitting!";
+
+    console.log("Showing a thank you message.");
 }
