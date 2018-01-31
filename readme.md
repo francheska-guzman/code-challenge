@@ -42,7 +42,7 @@ URL soon.
 1. Open the terminal.
 2. Move to Documents, Desktop or your preferred area.
 3. Run "git clone https://github.com/francheska-guzman/pre-work.git"
-4. Run "cd pre-work" to move to the project's directory.
+4. Move to the project's directory (in this case, "cd pre-work").
 5. Run "npm install" to install all dependencies.
 6. Run "foundation watch". Your browser will open in http://localhost:8000.
 
