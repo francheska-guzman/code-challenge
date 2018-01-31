@@ -1,44 +1,70 @@
-# Pre-work
+# ZURB Template
 
-**Candidate:** Francheska Guzman
+[![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
 
-**Deadline:** January 31, 2018 at 10:00am EST
+**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
 
-### Table of Contents
+This is the official ZURB Template for use with [Foundation for Sites](http://foundation.zurb.com/sites). We use this template at ZURB to deliver static code to our clients. It has a Gulp-powered build system with these features:
 
-1. [Techniques and technologies used](#tech-used)
-2. [How to see the project](#how-to-see)
+- Handlebars HTML templates with Panini
+- Sass compilation and prefixing
+- JavaScript module bundling with webpack
+- Built-in BrowserSync server
+- For production builds:
+  - CSS compression
+  - JavaScript compression
+  - Image compression
 
-<a id="tech-used"></a>
-## Techniques and technologies used
+## Installation
 
-HTML
+To use this template, your computer needs:
 
-CSS
+- [NodeJS](https://nodejs.org/en/) (0.12 or greater)
+- [Git](https://git-scm.com/)
 
-SCSS
+This template can be installed with the Foundation CLI, or downloaded and set up manually.
 
-Foundation 6
+### Using the CLI
 
-Responsive Design (Mobile, Tablet and Desktop)
+Install the Foundation CLI with this command:
 
-Tested in modern web browsers (Google Chrome, Safari, Firefox).
+```bash
+npm install foundation-cli --global
+```
 
-<a id="how-to-see"></a>
-## How to see the project
+Use this command to set up a blank Foundation for Sites project with this template:
 
-### Live deployment:
+```bash
+foundation new --framework sites --template zurb
+```
 
-URL soon.
+The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
 
-### To run in your local machine:
+Now `cd` to your project name and to start your project run 
 
-1. Open the terminal.
-2. If you don't have Foundation installed globally, run: "npm install foundation-cli --global"
-3. Move to Documents, Desktop or your preferred working area.
-4. Run "git clone https://github.com/francheska-guzman/pre-work.git"
-5. Move to the project's directory (in this case, "cd pre-work").
-6. Run "npm install" to install all dependencies.
-7. Run "foundation watch". Your browser will open in http://localhost:8000.
+```bash
+foundation watch
+```
 
+### Manual Setup
 
+To manually set up the template, first download it with Git:
+
+```bash
+git clone https://github.com/zurb/foundation-zurb-template projectname
+```
+
+Then open the folder in your command line, and install the needed dependencies:
+
+```bash
+cd projectname
+npm install
+```
+
+Finally, run `npm start` to run Gulp. Your finished site will be created in a folder called `dist`, viewable at this URL:
+
+```
+http://localhost:8000
+```
+
+To create compressed, production-ready assets, run `npm run build`.
