@@ -16,11 +16,13 @@ HTML
 
 CSS
 
+JavaScript – I added the js file for the form submission, but not getting it working on Foundation.
+
 SCSS
 
 Foundation 6
 
-Responsive Design for Mobile, Tablet (News section needs improvements) and Desktop
+Responsive Design for Mobile, Tablet and Desktop. – News and Tour Dates needs improvements for Mobile and Tablet.
 
 Tested in modern web browsers such as Google Chrome, Safari and Firefox.
 
