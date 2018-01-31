@@ -12,15 +12,15 @@
 <a id="tech-used"></a>
 ## Techniques and technologies used
 
-HTML
+HTML - Files are located in: /pre-work/src/partials/
 
-CSS
+CSS - Refer to SCSS.
 
-JavaScript – I added the js file for the form submission, but not getting it working on Foundation.
+SCSS - I used variables and nested rules. Files are located in: /pre-work/src/assets/scss/components/
 
-SCSS
+JavaScript – I added the js file for the form submission, however, I did not get it working on Foundation. File is located in: /pre-work/src/assets/js/scripts/
 
-Foundation 6
+Foundation 6 - I worked with grid layout and partials.
 
 Responsive Design for Mobile, Tablet and Desktop. – News and Tour Dates needs improvements for Mobile and Tablet.
 
