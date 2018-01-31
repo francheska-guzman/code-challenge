@@ -18,13 +18,13 @@
 
 [✓] SCSS
 
-[  ] JavaScript - I will be working on it after finish the style of the page.
+[✓] JavaScript
 
-[✓] Foundation 6 (Flex Grid)
+[✓] Foundation 6
 
 [✓] Responsive Design (Mobile, Tablet and Desktop)
 
-[✓] Testing in modern web browsers.
+[✓] Tested in modern web browsers (Google Chrome, Safari, Firefox).
 
 [✓] Visual Studio Code
 

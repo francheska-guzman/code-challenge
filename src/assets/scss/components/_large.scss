@@ -37,18 +37,17 @@ header {
     text-align: left;
     margin: 50px auto;
 
-    h1 {
-        font-size: 35px;
-    }
-
     h3 {
         font-size: 14px;
         color: $octonaryColor;
-        margin: 0 0 10px 0;
+        padding: 0;
+        margin: 45px 0 0 0;
     }
 
     h4 {
         font-size: 40px;
+        padding: 0;
+        margin: 0;
     }
 
     #new-album-buttons {
@@ -64,7 +63,7 @@ header {
     }
 
     li {
-        padding: 7px 0;
+        padding: 4px 0;
     }
 }
 
@@ -122,9 +121,13 @@ header {
 /* ------------------ Footer ------------------ */
 
 footer {
-    text-align: left;
+    text-align: center;
 
-    .social-media {
-        padding: 3px;
+    a, p {
+        font-size: 14px;
+    }
+
+    .social {
+        padding: 0 10px;
     }
 }
