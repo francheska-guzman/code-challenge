@@ -25,7 +25,7 @@ header {
         display: none;
     }
 
-    a {
+    a, .social {
         color: $primaryColor;
         text-decoration: none;
         font-family: $secondaryFont;
@@ -35,7 +35,8 @@ header {
         text-align: left;
     }
     
-    a:hover, a:active {
+    a:hover, 
+    .social:hover {
         color: $tertiaryColor;
     }
     
@@ -71,7 +72,8 @@ header {
     }
 
     h2 {
-        font-family: $tertiaryFont;
+        font-family: $primaryFont;
+        font-weight: bold;
         font-size: 35px;
         line-height: 1;
     }
@@ -128,7 +130,7 @@ header {
     li {
         font-family: $tertiaryFont;
         font-size: 15px;
-        padding: 10px 5px;
+        padding: 10px 5px 10px 0;
         list-style-type: none;
         text-align: left;
     }
@@ -229,6 +231,16 @@ header {
     
     .button:hover {
         background-color: darken($quinaryColor, 1%);
+    }
+
+    .read-more {
+        color: $tertiaryColor;
+        font-family: $secondaryFont;
+        font-weight: $boldWeight;
+    }
+
+    .read-more:hover {
+        color: $secondaryColor;
     }
 }
 

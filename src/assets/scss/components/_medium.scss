@@ -19,7 +19,7 @@ header {
         display: inline;
     }
 
-    a {
+    a, .social {
         font-size: 10px;
         display: inline;
         padding: 0 2px;
@@ -92,16 +92,16 @@ header {
 
     .location {
         font-size: 15px;
-        width: 220px;
+        width: 210px;
     }
 
     .state {
         font-size: 15px;
-        width: 220px;
+        width: 210px;
     }
 
     .button {
-        width: 90px;
+        width: 80px;
         font-size: 12px;
     }
 }

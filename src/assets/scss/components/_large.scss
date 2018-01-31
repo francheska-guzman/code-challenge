@@ -9,7 +9,7 @@ header {
         font-size: 30px;
     }
 
-    a {
+    a, .social {
         font-size: 14px;
         padding: 0 4px;
     }
@@ -17,12 +17,12 @@ header {
 
 #slideshow {
     #main-title {
-        top: 19vh;
+        top: 20vh;
         right: 15%;
     }
 
     h2 {
-        font-size: 80px;
+        font-size: 85px;
     }
 
     #scroll-down-btn {
@@ -82,6 +82,10 @@ header {
 
 #tour-dates {
     margin: 50px auto;
+
+    h3 {
+        padding: 0 0 0 10px;
+    }
 
     .tour-box {
         text-align: left;
