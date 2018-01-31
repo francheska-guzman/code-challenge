@@ -20,16 +20,12 @@ SCSS
 
 Foundation 6
 
-Responsive Design (Mobile, Tablet and Desktop)
+Responsive Design for Mobile, Tablet (News section needs improvements) and Desktop
 
-Tested in modern web browsers (Google Chrome, Safari, Firefox).
+Tested in modern web browsers such as Google Chrome, Safari and Firefox.
 
 <a id="how-to-see"></a>
 ## How to see the project
-
-### Live deployment:
-
-URL soon.
 
 ### To run in your local machine:
 
