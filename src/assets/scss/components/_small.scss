@@ -54,9 +54,7 @@ header {
 }
 
 #slideshow {
-    #slideshow {
-        position: relative;
-    }
+    position: relative;
 
     .slideshow-image {
         width: 100%;
@@ -66,7 +64,7 @@ header {
     #main-title {
         width: auto;
         position: absolute;
-        top: 10vh;
+        top: 8vh;
         right: 23%;
         margin: auto;
     }
@@ -79,14 +77,15 @@ header {
     }
 
     #scroll-down-btn {
+        font-size: 12px;
         font-weight: $boldWeight;
         text-transform: uppercase;
         color: $primaryColor;
         background-color: $senaryColor;
         width: 150px;
         height: 40px;
-        margin-top: 10px;
-        border-color: #515570;
+        padding: 12px 25px;
+        border: #515570 solid 3px;
         border-top: none;
         border-left: none;
         cursor: pointer;
