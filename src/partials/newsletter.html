@@ -1,0 +1,43 @@
+<section id="newsletter" class="row">
+  <div class="small-12 columns">
+    <h3>Newsletter</h3>
+    <form id="form" class="row form-wrapper">
+        <div class="newsletter-wrapper small-12 columns">
+            <!-- Input text fiels for E-mail address and ZIP Code -->
+            <span class="small-12 medium-6 columns">
+              <input class="newsletter-field" 
+              type="email" name="E-mail" placeholder="EMAIL ADDRESS *" required>
+            </span>
+            <!-- I used Regex for the ZIP code pattern. -->
+            <span class="small-12 medium-6 columns">
+              <input class="newsletter-field" 
+              type="text" pattern="(\d{5}([\-]\d{4})?)" name="ZIP Code" placeholder="ZIP CODE *" required>
+            </span>
+        </div>
+        
+    <h5 class="small-12 columns">Subscribe to email updates from:</h5>
+        <!-- Checkboxes -->
+        <div class="small-12 columns">
+            <span class="small-12 medium-4 columns check-list">
+                <label class="checkbox-label">
+                <input id="checkbox-1" type="checkbox" name="2Chainz" checked> 2 Chainz</label>
+            </span>
+            <span class="small-12 medium-4 columns check-list">
+                <label class="checkbox-label">
+                <input id="checkbox-2" type="checkbox" name="DefJamRecords" checked> Def Jam Records</label>
+            </span>
+            <span class="small-12 medium-4 columns check-list">
+                <label class="checkbox-label">
+                <input id="checkbox-3" type="checkbox" name="UniversalMusicGroup" checked> Universal Music Group</label>
+            </span>
+        </div>
+  
+        <!-- Form submission -->
+        <div class="submission small-12 columns">
+            <p>My selecting submit you agree to the Universal Music Group privacy policy.</p>  
+            <input id="submit-form" type="submit" value="Submit" onsubmit="submit()">
+        </div>
+      </form>
+    <div id="submission-message"></div>
+  </div>
+</section><!-- End of newsletter section -->
